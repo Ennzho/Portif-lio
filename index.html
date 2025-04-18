@@ -1,162 +1,162 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio de Ennzho Lanza</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Segoe UI', sans-serif;
-            background-color: #f8f9fa;
-            color: #333;
-        }
-        header {
-            padding: 3rem 0;
-        }
-        .badge {
-            margin: 0.2rem;
-        }
-        footer {
-            margin-top: 4rem;
-            border-top: 1px solid #ccc;
-            padding-top: 2rem;
-        }
-        a {
-            color: #333;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfólio | Ennzho Lanza</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #0f0f0f;
+      color: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding: 4rem 1rem 1rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    .typing {
+      font-weight: bold;
+      color: #00ffae;
+      height: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .section {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    .project {
+      background: #1c1c1c;
+      padding: 1rem;
+      border-radius: 8px;
+      border: 1px solid #333;
+    }
+
+    .project a {
+      color: #00ffae;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      background: #0a0a0a;
+    }
+
+    .contact-info p {
+      margin: 0.3rem 0;
+    }
+
+    @media(min-width: 600px) {
+      .projects {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  </style>
 </head>
 <body>
-    <header class="container text-center">
-        <div class="d-flex justify-content-center mb-3">
-            <div class="rounded-circle bg-secondary d-flex align-items-center justify-content-center" style="width: 150px; height: 150px;">
-                <i class="bi bi-person-fill text-light" style="font-size: 3rem;"></i>
-            </div>
-        </div>
-        <p class="lead">Eu sou <strong>Ennzho Lanza</strong></p>
-        <h1>Designer Gráfico & Estudante</h1>
-        <p>Tenho 15 anos e atualmente estou no segundo ano do ensino médio. Sou apaixonado por design e tecnologia, e estou começando minha jornada como designer gráfico. Apesar de ser iniciante, busco constantemente aprender novas técnicas e ferramentas para melhorar minhas habilidades criativas.</p>
-        <h5 class="mt-4">Minhas habilidades</h5>
-        <div>
-            <span class="badge bg-secondary">Adobe Photoshop</span>
-            <span class="badge bg-secondary">Illustrator</span>
-            <span class="badge bg-secondary">Design Digital</span>
-            <span class="badge bg-secondary">Edição de Imagens</span>
-        </div>
-    </header>
 
-    <main class="container mt-5">
-        <h2 class="mb-4 text-center">Meus Projetos</h2>
-        <div class="row g-4">
-            <!-- Projeto 1 -->
-            <div class="col-md-4">
-                <div class="card h-100">
-                    <div class="card-body text-center py-4">
-                        <i class="bi bi-palette-fill" style="font-size: 3rem;"></i>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Série de Posters Modernos</h5>
-                        <p class="card-text">Posters para eventos escolares, focando em composição e tipografia moderna.</p>
-                        <button class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Detalhes do projeto</button>
-                    </div>
-                </div>
-            </div>
+  <header>
+    <h1><span class="typing"></span> Ennzho Lanza</h1>
+  </header>
 
-            <!-- Projeto 2 -->
-            <div class="col-md-4">
-                <div class="card h-100">
-                    <div class="card-body text-center py-4">
-                        <i class="bi bi-phone" style="font-size: 3rem;"></i>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Interface para App Escolar</h5>
-                        <p class="card-text">Protótipo focado em usabilidade e design intuitivo para um app de organização escolar.</p>
-                        <button class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Detalhes do projeto</button>
-                    </div>
-                </div>
-            </div>
+  <section class="section">
+    <h2>Sobre mim</h2>
+    <p>
+      Tenho 15 anos e atualmente estou no segundo ano do ensino médio. Sou apaixonado por design e tecnologia, e iniciei minha jornada como designer gráfico com muita dedicação e curiosidade. Mesmo sendo iniciante, estou sempre buscando aprender novas técnicas, estudar ferramentas modernas e explorar diferentes estilos visuais para aprimorar minha criatividade e entregar resultados cada vez melhores. Meu objetivo é evoluir constantemente e construir uma carreira sólida no universo do design digital.
+    </p>
+  </section>
 
-            <!-- Projeto 3 -->
-            <div class="col-md-4">
-                <div class="card h-100">
-                    <div class="card-body text-center py-4">
-                        <i class="bi bi-brush-fill" style="font-size: 3rem;"></i>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Identidade Visual de Banda</h5>
-                        <p class="card-text">Logo e identidade visual para banda escolar, com aplicação em redes sociais e mídias físicas.</p>
-                        <button class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Detalhes do projeto</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <!-- Modais -->
-    <div class="modal fade" id="modal1" tabindex="-1">
-        <div class="modal-dialog modal-dialog-scrollable">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Série de Posters Modernos</h5>
-                    <button class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Posters para eventos culturais como feiras e festivais literários. Criados com técnicas de hierarquia visual e tipografia moderna usando Photoshop. Cores escolhidas conforme o tema do evento e fontes contrastantes para destaque.</p>
-                </div>
-                <div class="modal-footer">
-                    <small>Projeto escolar - Não disponível online</small>
-                </div>
-            </div>
-        </div>
+  <section class="section">
+    <h2>Meus Projetos</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Criação de Logotipo</h3>
+        <p>Desenvolvimento de uma identidade visual para um food truck, combinando estilo moderno e impacto visual para atrair clientes.</p>
+        <a href="https://www.behance.net/gallery/223933585/Criacao-de-Logotipo" target="_blank">Ver projeto</a>
+      </div>
+      <div class="project">
+        <h3>Criação de Painéis para Twitch</h3>
+        <p>Design de painéis personalizados para perfil da Twitch, com foco em organização, estética gamer e identidade do streamer.</p>
+        <a href="https://www.behance.net/gallery/223933669/Twitch-Panels" target="_blank">Ver projeto</a>
+      </div>
+      <div class="project">
+        <h3>Edição de Foto</h3>
+        <p>Transformação visual de imagem com ajustes de cor, brilho, efeitos visuais e composição criativa para torná-la midiática e marcante.</p>
+        <a href="https://www.behance.net/gallery/223934047/Edicao-de-Foto/modules/1279261685" target="_blank">Ver projeto</a>
+      </div>
     </div>
+  </section>
 
-    <div class="modal fade" id="modal2" tabindex="-1">
-        <div class="modal-dialog modal-dialog-scrollable">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Interface para App Escolar</h5>
-                    <button class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <div class="modal-body">
-                    <p>App conceito para organização escolar. Criado com base em entrevistas com colegas, wireframes, mockups minimalistas e paleta suave. Foco total na usabilidade e clareza da navegação.</p>
-                </div>
-                <div class="modal-footer">
-                    <small>Projeto conceitual - Não implementado</small>
-                </div>
-            </div>
-        </div>
+  <section class="section">
+    <h2>Entre em Contato</h2>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:moraes.ennzho@gmail.com" style="color:#00ffae;">moraes.ennzho@gmail.com</a></p>
+      <p>Instagram: <a href="https://instagram.com/_ennzho.lla_" target="_blank" style="color:#00ffae;">@_ennzho.lla_</a></p>
+      <p>Behance: <a href="https://www.behance.net/designbyennzho" target="_blank" style="color:#00ffae;">behance.net/designbyennzho</a></p>
     </div>
+  </section>
 
-    <div class="modal fade" id="modal3" tabindex="-1">
-        <div class="modal-dialog modal-dialog-scrollable">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Identidade Visual de Banda</h5>
-                    <button class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Marca criada para banda de rock escolar. Logotipo personalizado, símbolo abstrato, paleta de cores impactante. Aplicações criadas para capas, redes sociais e adesivos. Foco em branding e consistência visual.</p>
-                </div>
-                <div class="modal-footer">
-                    <small>Projeto pessoal - Uso limitado pela banda</small>
-                </div>
-            </div>
-        </div>
-    </div>
+  <footer>
+    © Copyright 2025. Produzido por Ennzho Lanza
+  </footer>
 
-    <footer class="container text-center">
-        <h2 class="mt-5">Entre em contato</h2>
-        <p><i class="bi bi-envelope-fill"></i> ennzho.lanza@exemplo.com</p>
-        <p><i class="bi bi-instagram"></i> <a href="https://instagram.com" target="_blank">@ennzho_designs</a></p>
-        <p><i class="bi bi-behance"></i> <a href="https://behance.net" target="_blank">Behance Portfolio</a></p>
-        <p class="mt-4">© 2024 - Desenvolvido por Ennzho Lanza</p>
-    </footer>
+  <script>
+    const typingElement = document.querySelector(".typing");
+    const frases = [
+      "Eu sou",
+      "I am",
+      "Je suis",
+      "Ich bin",
+      "Soy",
+      "私は",
+      "Eu sou"
+    ];
+    let i = 0;
+    let j = 0;
+    let current = "";
+    let isDeleting = false;
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    function type() {
+      if (i < frases.length) {
+        if (!isDeleting && j <= frases[i].length) {
+          current = frases[i].substring(0, j++);
+          typingElement.innerHTML = current;
+          setTimeout(type, 100);
+        } else if (isDeleting && j >= 0) {
+          current = frases[i].substring(0, j--);
+          typingElement.innerHTML = current;
+          setTimeout(type, 60);
+        } else {
+          if (!isDeleting) {
+            isDeleting = true;
+            setTimeout(type, 1000);
+          } else {
+            isDeleting = false;
+            i = (i + 1) % frases.length;
+            setTimeout(type, 300);
+          }
+        }
+      }
+    }
+
+    type();
+  </script>
 </body>
 </html>
